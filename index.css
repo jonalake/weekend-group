@@ -26,3 +26,19 @@ header {
 .Brice {
     grid-column: 2 / span 1;
 }
+
+h1 {
+    font-size: 48px;
+    font-weight: 800;
+    color: white;
+}
+
+h2 {
+    font-size: 36px;
+    margin-top: 24px;
+    text-align: center;
+}
+
+p {
+
+}
