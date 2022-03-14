@@ -9,11 +9,12 @@ body {
     font-family: 'M PLUS 1', sans-serif; 
     display: grid;
     grid-template-columns: 2;
+    text-align: center;
 }
 
 header {
     grid-column: 1 / span 2;
-    display: flex;
+    display: block;
     text-align: center;
     padding: 24px;
     background-color: darkgreen;
@@ -35,10 +36,10 @@ h1 {
 
 h2 {
     font-size: 36px;
-    margin-top: 24px;
-    text-align: center;
+    margin: 24px;
+    
 }
 
 p {
-
+    margin: 24px;
 }
