@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+1&display=swap');
+
+
+img {
+    max-width: 400px;
+}
+
+body {
+    font-family: 'M PLUS 1', sans-serif; 
+    display: grid;
+    grid-template-columns: 2;
+}
+
+header {
+    grid-column: 1 / span 2;
+    display: flex;
+    text-align: center;
+    padding: 24px;
+    background-color: darkgreen;
+}
+
+.Jon {
+    grid-column: 1 / span 1;
+}
+
+.Brice {
+    grid-column: 2 / span 1;
+}
